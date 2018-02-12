@@ -1,0 +1,47 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.NODE_ENV=dev --open",
+    "build": "webpack --env.NODE_ENV=prod",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0-beta.37",
+    "file-loader": "^1.1.6",
+    "image-webpack-loader": "^3.4.2",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.12",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "axios": "^0.17.1",
+    "babel-loader": "^8.0.0-beta.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "css-loader": "^0.28.8",
+    "express": "^4.16.2",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.0.2",
+    "popper": "^1.0.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0-beta.14",
+    "react-router-dom": "^4.2.2"
+  }
+}
